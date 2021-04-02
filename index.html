@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+    <title>CALCULADORA EM SCript</title>
+
+
+</head>
+<body ">
+
+    <form>
+        <div class="fundo">
+
+            <table border="0">
+                <tr>
+                    <th colspan="5">CALCULADORA EM JAVA SCript</th>
+                </tr>
+                <tr>
+                    <td> ESCREVA PRIMEIRO NUMERO <input class="bt1" type="text" name="val1" id="val1"></td>
+                    <td>
+                                    <h5>ESCOLHA O SINAL</h5>
+                        <select  name="sinal" id="sinal" class="b2">
+                            <option value="+">+</option>
+                            <option value="-">-</option>
+                            <option value="*">*</option>
+                            <option value="/">/</option>
+                          
+                        </select>
+
+                    </td> 
+                    <td> ESCREVA SEGUNDO NUMERO <input class="bt2" type="text" name="val2" id='val2'></td> 
+                    <td> <input class="igua"type="button" value="=" onclick="calcular();" name=""></td>
+                    <td><input class="res" type="text" name="resul" id='result'></td>       
+                </tr>
+
+            </table>
+        </div>
+    </form>
+<script type="text/javascript">
+
+    function calcular(){
+
+        let val1 = parseInt(document.getElementById("val1").value);
+        let val2 = parseInt(document.getElementById("val2").value);
+        let sinal = document.getElementById("sinal").value;
+        let result = document.getElementById("result");
+        
+        if(sinal =="+") result.value = val1 + val2;
+        if(sinal =="-") result.value = val1 - val2;
+        if(sinal =="*") result.value = val1 * val2;
+        if(sinal =="/") result.value = val1 / val2;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+
+body {
+    background-color:rgb(191, 150, 233);
+    width:max-content;
+    height: 20rem;
+    padding: 10%;
+    margin: 10rem;
+    margin-left: 10;
+    box-sizing: border-box;
+}
+
+.fundo{
+
+    background-color: grey;
+    border-radius: 1rem;
+    
+}
+div{
+    
+    position: relative;
+    bottom: 100%;
+   
+} 
+
+.bt2{
+    width: 15px; ;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(255, 153, 51);
+    border-radius: 50%;
+}
+
+.bt1{
+    width: 15px;
+    padding: 1rem;
+    margin:1rem;
+    background-color: rgb(255, 153, 51);
+    border-radius: 50%;
+   
+}
+
+.b2{
+    width: 50px;
+    height: 50px;
+    padding:5px;
+    margin:30px;
+    margin-bottom: 70%;
+    background-color:rgb(35, 560,0);
+    border-radius: 25%;
+  
+}
+
+.igua{
+
+    padding-left: 5em;
+    margin: 5em;
+    background-color:snow;
+}
+
+h5{
+    text-align: center;
+    color:black;
+}
+
+.res{
+
+    width: 70px;
+    height: 70px;
+    padding:5px;
+    margin:30px;
+    margin-bottom: 50%;
+    background-color:rgb(236, 163, 26);
+    border-radius: 25%;
+  
+
+}
